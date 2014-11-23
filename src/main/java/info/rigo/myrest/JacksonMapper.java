@@ -18,7 +18,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.ext.MessageBodyWriter;
 import javax.ws.rs.ext.Provider;
-
+//git test
 @Provider
 @Produces(MediaType.APPLICATION_JSON)
 public class JacksonMapper implements MessageBodyWriter<Object> {
